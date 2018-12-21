@@ -1,9 +1,9 @@
 {
   "name": "HttpClient",
   "version": "0.1.0",
-  "summary": "A short description of HttpClient.",
+  "summary": "A simple but powerful HttpClient.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/465738515@qq.com/HttpClient",
+  "homepage": "https://github.com/hpy8804/HttpClient",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "465738515@qq.com": "yan_he@above-link.com"
   },
   "source": {
-    "git": "https://github.com/465738515@qq.com/HttpClient.git",
+    "git": "https://github.com/hpy8804/HttpClient.git",
     "tag": "0.1.0"
   },
   "platforms": {

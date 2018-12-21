@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'HttpClient_Example' do
-  pod 'HttpClient', :path => '../'
+  pod 'HttpClient', :path => '../HttpClient.podspec'
 
   target 'HttpClient_Tests' do
     inherit! :search_paths

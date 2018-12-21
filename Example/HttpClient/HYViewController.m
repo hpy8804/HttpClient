@@ -7,6 +7,7 @@
 //
 
 #import "HYViewController.h"
+#import "HttpClient.h"
 
 @interface HYViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [HttpClient GET:@"www.baidu.com" response:^(HttpResponse *response) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning
