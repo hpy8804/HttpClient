@@ -1,0 +1,6 @@
+framework module HttpClient {
+  umbrella header "HttpClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
